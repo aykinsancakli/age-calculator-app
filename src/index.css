@@ -168,13 +168,14 @@ body {
 
   .form input {
     max-width: 11rem;
-    padding: 1.5rem;
+    padding: 1.6rem;
     font-size: 2.4rem;
   }
 
   .container {
     max-width: 43.75rem;
     padding: 5rem 3rem;
+    margin: 12rem auto;
   }
 
   .results {
@@ -210,11 +211,6 @@ body {
     height: 1px;
     background-color: var(--light-grey);
     flex-basis: 50%;
-  }
-
-  .submit-icon {
-    width: 32px;
-    height: 30px;
   }
 
   .submit-btn:hover {
