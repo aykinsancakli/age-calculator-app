@@ -57,14 +57,14 @@ body {
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.45rem;
 }
 
 .form-label {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--smokey-grey);
 
   transition: all 0.2s;
@@ -73,7 +73,7 @@ body {
 .form input {
   padding: 1rem;
   border-radius: 5px;
-  border: 1px solid var(--smokey-grey);
+  border: 1px solid var(--light-grey);
   max-width: 14rem;
   font-weight: 700;
 
@@ -127,7 +127,10 @@ body {
 .submit-btn {
   border: none;
   border-radius: 50%;
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   background-color: var(--purple);
 
